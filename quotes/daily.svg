@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="215" viewBox="0 0 800 215">
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <text
+    font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
+    font-size="28"
+    fill="#000000"
+    font-weight="400"
+    letter-spacing="-0.01em">
+    <tspan x="60" y="88">“I&apos;m happy to be here with you all”</tspan>
+  </text>
+  <text
+    font-family="Courier New, Courier, monospace"
+    font-size="11"
+    fill="#666666"
+    font-weight="400"
+    text-transform="uppercase"
+    letter-spacing="0.1em">
+    <tspan x="60" y="158">Dodge This!  —  Headache (PLZ)</tspan>
+    <tspan x="60" y="175">Thank You for Almost Everything</tspan>
+  </text>
+</svg>
