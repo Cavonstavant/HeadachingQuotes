@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HeadachingQuotes</title>
+  <meta name="description" content="A random quote from Headache, Vegyn, and Headache PLZ & Vegyn lyrics.">
+  <meta property="og:title" content="HeadachingQuotes">
+  <meta property="og:description" content="Daily lyrics from Headache & Vegyn.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <a href="/" class="logo">HeadachingQuotes</a>
+  </header>
+
+  <main>
+    <div id="quote-container">
+      <blockquote id="quote-text" aria-live="polite"></blockquote>
+      <cite id="quote-credit"></cite>
+    </div>
+
+    <div class="controls">
+      <span id="daily-label" class="mode-label">quote of the day</span>
+      <button id="shuffle-btn" type="button" aria-label="Get a new random quote">shuffle</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>
+      Lyrics by
+      <a href="https://genius.com/artists/Headache-plz" target="_blank" rel="noopener">Headache (PLZ)</a>,
+      <a href="https://genius.com/artists/Vegyn" target="_blank" rel="noopener">Vegyn</a>
+      &amp; collaborators.
+    </p>
+    <p class="subtle">
+      Sourced from <a href="https://genius.com" target="_blank" rel="noopener">Genius</a>.
+    </p>
+  </footer>
+
+  <script src="data/quotes.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
