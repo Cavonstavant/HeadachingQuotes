@@ -6,10 +6,10 @@
     fill="#000000"
     font-weight="400"
     letter-spacing="-0.01em">
-    <tspan x="60" y="88">“And not being able to remember what you</tspan>
-    <tspan x="60" y="126">had for lunch</tspan>
-    <tspan x="60" y="164">You wanna know what&apos;s next? More</tspan>
-    <tspan x="60" y="201">apocalypse”</tspan>
+    <tspan x="60" y="88">“You wanna know what&apos;s next? More</tspan>
+    <tspan x="60" y="126">apocalypse</tspan>
+    <tspan x="60" y="164">Even if you could escape it, why would you</tspan>
+    <tspan x="60" y="201">want to?”</tspan>
   </text>
   <text
     font-family="Courier New, Courier, monospace"
