@@ -6,10 +6,10 @@
     fill="#000000"
     font-weight="400"
     letter-spacing="-0.01em">
-    <tspan x="60" y="88">“I won&apos;t lie to you, I was scared</tspan>
-    <tspan x="60" y="126">I was scared when my life put me on a boat</tspan>
-    <tspan x="60" y="164">that I knew would sink but then I still</tspan>
-    <tspan x="60" y="201">got on”</tspan>
+    <tspan x="60" y="88">“I was scared when my life put me on a boat</tspan>
+    <tspan x="60" y="126">that I knew would sink but then I still</tspan>
+    <tspan x="60" y="164">got on</tspan>
+    <tspan x="60" y="201">And while the whole setup was fantastic”</tspan>
   </text>
   <text
     font-family="Courier New, Courier, monospace"
