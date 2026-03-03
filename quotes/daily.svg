@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="328" viewBox="0 0 800 328">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="290" viewBox="0 0 800 290">
   <rect width="100%" height="100%" fill="#ffffff"/>
   <text
     font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
@@ -6,10 +6,9 @@
     fill="#000000"
     font-weight="400"
     letter-spacing="-0.01em">
-    <tspan x="60" y="88">“Not in any past that any thought of ours</tspan>
-    <tspan x="60" y="126">could ever reach</tspan>
-    <tspan x="60" y="164">But thoughts whispering the first glimpse</tspan>
-    <tspan x="60" y="201">of the future”</tspan>
+    <tspan x="60" y="88">“But thoughts whispering the first glimpse</tspan>
+    <tspan x="60" y="126">of the future</tspan>
+    <tspan x="60" y="164">Where somebody, maybe you, maybe not”</tspan>
   </text>
   <text
     font-family="Courier New, Courier, monospace"
@@ -18,7 +17,7 @@
     font-weight="400"
     text-transform="uppercase"
     letter-spacing="0.1em">
-    <tspan x="60" y="271">The Pavement is my Pillow Talk  —  Headache (PLZ)</tspan>
-    <tspan x="60" y="289">The Head Hurts but the Heart Knows the Truth</tspan>
+    <tspan x="60" y="233">The Pavement is my Pillow Talk  —  Headache (PLZ)</tspan>
+    <tspan x="60" y="251">The Head Hurts but the Heart Knows the Truth</tspan>
   </text>
 </svg>
