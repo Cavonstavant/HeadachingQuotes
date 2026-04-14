@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="290" viewBox="0 0 800 290">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="328" viewBox="0 0 800 328">
   <rect width="100%" height="100%" fill="#ffffff"/>
   <text
     font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
@@ -6,9 +6,10 @@
     fill="#000000"
     font-weight="400"
     letter-spacing="-0.01em">
-    <tspan x="60" y="88">“Because you just walked into a fucking</tspan>
-    <tspan x="60" y="126">lamppost?</tspan>
-    <tspan x="60" y="164">And now you&apos;re rolling around on the floor”</tspan>
+    <tspan x="60" y="88">“And now you&apos;re rolling around on the floor</tspan>
+    <tspan x="60" y="126">And you&apos;re still trying to get the dang</tspan>
+    <tspan x="60" y="164">words out of your mouth, but they&apos;re stuck</tspan>
+    <tspan x="60" y="201">to your tongue”</tspan>
   </text>
   <text
     font-family="Courier New, Courier, monospace"
@@ -17,7 +18,7 @@
     font-weight="400"
     text-transform="uppercase"
     letter-spacing="0.1em">
-    <tspan x="60" y="233">That Thing with the Rabbit  —  Headache (PLZ)</tspan>
-    <tspan x="60" y="251">The Head Hurts but the Heart Knows the Truth</tspan>
+    <tspan x="60" y="271">That Thing with the Rabbit  —  Headache (PLZ)</tspan>
+    <tspan x="60" y="289">The Head Hurts but the Heart Knows the Truth</tspan>
   </text>
 </svg>
