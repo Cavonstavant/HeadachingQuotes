@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="328" viewBox="0 0 800 328">
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="290" viewBox="0 0 800 290">
   <rect width="100%" height="100%" fill="#ffffff"/>
   <text
     font-family="Helvetica Neue, Helvetica, Arial, sans-serif"
@@ -6,10 +6,9 @@
     fill="#000000"
     font-weight="400"
     letter-spacing="-0.01em">
-    <tspan x="60" y="88">“That if she hadn&apos;t ordered that eighth</tspan>
-    <tspan x="60" y="126">round of shots, then they would have left</tspan>
-    <tspan x="60" y="164">early and I wouldn&apos;t have been there</tspan>
-    <tspan x="60" y="201">And that if she hadn&apos;t decided”</tspan>
+    <tspan x="60" y="88">“And that if she hadn&apos;t decided</tspan>
+    <tspan x="60" y="126">In her, as I was soon to discover,</tspan>
+    <tspan x="60" y="164">classically whimsical way”</tspan>
   </text>
   <text
     font-family="Courier New, Courier, monospace"
@@ -18,7 +17,7 @@
     font-weight="400"
     text-transform="uppercase"
     letter-spacing="0.1em">
-    <tspan x="60" y="271">Business Opportunities  —  Headache (PLZ)</tspan>
-    <tspan x="60" y="289">The Head Hurts but the Heart Knows the Truth</tspan>
+    <tspan x="60" y="233">Business Opportunities  —  Headache (PLZ)</tspan>
+    <tspan x="60" y="251">The Head Hurts but the Heart Knows the Truth</tspan>
   </text>
 </svg>
