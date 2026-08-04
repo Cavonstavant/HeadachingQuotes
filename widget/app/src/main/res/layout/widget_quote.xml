@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Wide (4x2) card. Fortunes-style: black ground, tiny tracked-out label, the
+  quote in Departure Mono, song title as a terse credit line.
+-->
+<!--
+  SmallSp is suppressed deliberately: the hairline tracked-out label and credit
+  are the Nothing widget language, and sp still scales them with the user's font
+  size preference.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/widget_bg"
+    android:padding="@dimen/widget_padding"
+    tools:ignore="SmallSp">
+
+    <TextView
+        android:id="@+id/widget_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/widget_title"
+        android:textAllCaps="true"
+        android:textSize="9sp"
+        android:letterSpacing="0.18"
+        android:fontFamily="@font/departure_mono"
+        android:textColor="@color/card_muted" />
+
+    <TextView
+        android:id="@+id/widget_quote"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="8dp"
+        android:paddingBottom="6dp"
+        android:gravity="center_vertical|start"
+        android:text="@string/preview_quote"
+        android:textSize="15sp"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="9sp"
+        android:autoSizeMaxTextSize="17sp"
+        android:autoSizeStepGranularity="1sp"
+        android:lineSpacingMultiplier="1.25"
+        android:fontFamily="@font/departure_mono"
+        android:textColor="@color/card_foreground"
+        android:ellipsize="end" />
+
+    <TextView
+        android:id="@+id/widget_credit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/preview_credit"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textAllCaps="true"
+        android:textSize="9sp"
+        android:letterSpacing="0.12"
+        android:fontFamily="@font/departure_mono"
+        android:textColor="@color/card_muted" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Fortunes-style: the card stays black in light and dark alike. -->
+    <color name="card_background">#FF000000</color>
+    <color name="card_foreground">#FFFFFFFF</color>
+    <color name="card_muted">#FF8A8A8A</color>
+
+    <color name="ic_launcher_background">#FF000000</color>
+</resources>

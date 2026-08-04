@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Compact (2x2) card. Same language as the wide one, but the credit line is
+  dropped so the quote itself keeps the room it needs to stay readable.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/widget_bg"
+    android:padding="@dimen/widget_padding"
+    tools:ignore="SmallSp">
+
+    <TextView
+        android:id="@+id/widget_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/widget_title"
+        android:textAllCaps="true"
+        android:textSize="8sp"
+        android:letterSpacing="0.18"
+        android:fontFamily="@font/departure_mono"
+        android:textColor="@color/card_muted" />
+
+    <TextView
+        android:id="@+id/widget_quote"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingTop="6dp"
+        android:gravity="center_vertical|start"
+        android:text="@string/preview_quote"
+        android:textSize="13sp"
+        android:autoSizeTextType="uniform"
+        android:autoSizeMinTextSize="8sp"
+        android:autoSizeMaxTextSize="15sp"
+        android:autoSizeStepGranularity="1sp"
+        android:lineSpacingMultiplier="1.2"
+        android:fontFamily="@font/departure_mono"
+        android:textColor="@color/card_foreground"
+        android:ellipsize="end" />
+</LinearLayout>

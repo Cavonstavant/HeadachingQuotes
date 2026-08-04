@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Padding is set in MainActivity: window insets have to be added to the base
+  padding rather than replace it, which is what fitsSystemWindows would do.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/screen_padding"
+    tools:ignore="SmallSp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/widget_title"
+        android:textAllCaps="true"
+        android:textSize="11sp"
+        android:letterSpacing="0.18"
+        android:fontFamily="@font/departure_mono"
+        android:textColor="@color/card_muted" />
+
+    <TextView
+        android:id="@+id/quote"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical|start"
+        android:textSize="22sp"
+        android:lineSpacingMultiplier="1.3"
+        android:fontFamily="@font/departure_mono"
+        android:textColor="@color/card_foreground" />
+
+    <TextView
+        android:id="@+id/credit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textSize="10sp"
+        android:letterSpacing="0.12"
+        android:fontFamily="@font/departure_mono"
+        android:textColor="@color/card_muted" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="@string/widget_hint"
+        android:textSize="10sp"
+        android:letterSpacing="0.06"
+        android:fontFamily="@font/departure_mono"
+        android:textColor="@color/card_muted" />
+
+    <TextView
+        android:id="@+id/next_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:textSize="10sp"
+        android:letterSpacing="0.06"
+        android:fontFamily="@font/departure_mono"
+        android:textColor="@color/card_muted" />
+
+    <Button
+        android:id="@+id/refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="@string/refresh"
+        android:textAllCaps="true"
+        android:textSize="11sp"
+        android:letterSpacing="0.12"
+        android:fontFamily="@font/departure_mono"
+        android:textColor="@color/card_foreground"
+        android:background="@android:color/transparent" />
+</LinearLayout>

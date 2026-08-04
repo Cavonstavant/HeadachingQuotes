@@ -1,0 +1,25 @@
+[versions]
+agp = "8.13.2"
+kotlin = "2.4.10"
+# Newer core-ktx (1.18+) requires AGP 9.1+ and compileSdk 37; 1.17.0 is the
+# release that matches compileSdk 36 and AGP 8.13.
+coreKtx = "1.17.0"
+work = "2.11.2"
+junit = "4.13.2"
+testRunner = "1.7.0"
+testExtJunit = "1.3.0"
+# Android ships org.json, but android.jar's stubs throw on the JVM test
+# classpath, so the real implementation is needed for QuoteParser tests.
+json = "20260719"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-work-runtime-ktx = { group = "androidx.work", name = "work-runtime-ktx", version.ref = "work" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+json = { group = "org.json", name = "json", version.ref = "json" }
+androidx-test-runner = { group = "androidx.test", name = "runner", version.ref = "testRunner" }
+androidx-test-ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "testExtJunit" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- No action bar: a Roboto title strip would break the all-black card look. -->
+    <style name="Theme.Headaching" parent="@android:style/Theme.DeviceDefault.NoActionBar">
+        <item name="android:windowBackground">@color/card_background</item>
+        <item name="android:statusBarColor">@color/card_background</item>
+        <item name="android:navigationBarColor">@color/card_background</item>
+    </style>
+
+    <!-- ShareActivity has no UI of its own; it renders a card and hands off. -->
+    <style name="Theme.Headaching.Invisible" parent="@android:style/Theme.Translucent.NoTitleBar">
+        <item name="android:windowNoDisplay">true</item>
+    </style>
+</resources>

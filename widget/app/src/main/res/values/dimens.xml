@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The platform's own widget radius, so the card lines up with the Nothing
+         launcher's other widgets. Available from API 31, which is our minSdk. -->
+    <dimen name="widget_corner_radius">@android:dimen/system_app_widget_background_radius</dimen>
+    <dimen name="widget_padding">16dp</dimen>
+    <dimen name="screen_padding">24dp</dimen>
+</resources>

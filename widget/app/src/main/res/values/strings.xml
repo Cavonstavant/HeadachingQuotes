@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Headaching</string>
+    <string name="widget_label">Headaching</string>
+    <string name="widget_title">Headaching</string>
+    <string name="widget_description">Today\'s Headache (PLZ) lyric, in step with the site.</string>
+
+    <string name="share_title">Share quote</string>
+    <string name="share_failed">Could not build the card</string>
+    <string name="refresh">Refresh now</string>
+    <string name="refreshing">Refreshing…</string>
+    <string name="refresh_done">Quotes up to date</string>
+    <string name="refresh_failed">Could not reach the site</string>
+    <string name="widget_hint">Long-press the home screen → Widgets → Headaching</string>
+    <string name="next_update">Next quote change: %1$s</string>
+    <string name="next_update_unscheduled">Next quote change: not scheduled</string>
+    <string name="no_quotes">No quotes available yet.</string>
+
+    <!-- Shown in the widget picker and for the split second before the first
+         update lands. A real entry from data/quotes.js, not placeholder text. -->
+    <string name="preview_quote">“I don\'t recognize my face anymore”</string>
+    <string name="preview_credit">Bucket Listener</string>
+</resources>
